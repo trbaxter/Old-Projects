@@ -1,0 +1,30 @@
+restart;
+with(plots):
+
+// Value of the gravitational constant G
+G := 6.674E-11;
+
+// Mass of the Milky Way galaxy considering baryonic matter only
+M := 1.79E41;
+
+// Distance of the Sun within the Milky Way in meters (~ 50,000 Ly)
+r_0 := 2.42E20;
+
+// Rate of change of angle as the sun moves about its orbit (~ 220 km/s div. by r_0 in meters)
+thetadot_0 := 9.091E-16;
+
+/* Rate of change of the radial component of distance of the Sun in the Milky Way
+(assumed to be very small? Unknown, setting to 1 for simplicity) */
+rdot_0 := 1;
+
+// Defining A, B, and C pieces of integrated equation from F = ma analysis
+A := (-2*M*G/r_0 + thetadot_0^2*r_0^2 + rdot_0^2);
+B := (2*M*G);
+C := thetadot_0^2*r_0^4;
+
+// Expression representing the amount of time (in s) to reach the given input radius
+t(r) := [sqrt(r*(A*r + B))/A - B/(2*A^(3/2)) * ln(2 * sqrt(A) * sqrt(r(A*r + B) + C) + 2*A*r + B)] -
+        [sqrt(r_0*(A*r_0 + B))/A - B/(2*A^(3/2)) * ln(2*sqrt(A)*sqrt(r_0 * (A*r_0 + B) + C) + 2*A*r_0 + B)];
+
+// Time as a function of radius from current location of Sun (r_0) to edge of Milky Way disk (~ 4.73E20 m)
+plot(t(r), r = 2.42E20 .. 4.73E20);
