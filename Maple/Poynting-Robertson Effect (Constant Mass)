@@ -14,8 +14,8 @@ r_0 := 2.42E20;
 thetadot_0 := 9.091E-16;
 
 /* Rate of change of the radial component of distance of the Sun in the Milky Way
-(assumed to be very small? Unknown, setting to 1 for simplicity) */
-rdot_0 := 1;
+(assumed to be very small? Unknown, setting to 0 for simplicity) */
+rdot_0 := 0;
 
 // Defining A, B, and C pieces of integrated equation from F = ma analysis
 A := (-2*M*G/r_0 + thetadot_0^2*r_0^2 + rdot_0^2);
