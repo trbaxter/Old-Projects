@@ -1,0 +1,11 @@
+#description {
+    white-space: pre-line;
+    font-family: "Arial";
+    font-size: medium;
+}
+
+#enterdescription {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+
+}
