@@ -19,4 +19,4 @@ This folder contains a collection of homework assignments I completed in my 2018
 
 <br>
 
-Course exercises are taken from Y. Daniel Liang's *Intro to Programming Using Python* textbook.
+Course exercises are taken from Y. Daniel Liang's *Intro to Programming Using Python*.
