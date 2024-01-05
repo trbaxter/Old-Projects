@@ -1,7 +1,4 @@
-'''
-CH1 - Exercise 3
-Write a program that uses the letters F, U, and N to write out the word "FUN".
-'''
+# Chapter 1 - Exercise 3
 
 print('''
 
