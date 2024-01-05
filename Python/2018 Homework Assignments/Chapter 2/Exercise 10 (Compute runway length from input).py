@@ -8,12 +8,12 @@ and the acceleration a in meters/second², and displays the minimum runway lengt
 velocity, acceleration = eval(input("To determine the minimum runway length, \nplease enter the take-off speed (in m/s) and acceleration (in m/s²) separated by a comma: "))
 
 '''
-From kinematics, v_final^2 = v_initial^2 + 2a(distance)
+From kinematics, (velocity)^2 = (velocity_initial)^2 + 2a(distance)
 
-Assuming v_initial = 0 at takeoff:
+Assuming velocity_initial = 0 at takeoff:
 
-v_final^2 = 2a(distance)
-v_final^2/2a = distance
+(velocity)^2 = 2a(distance)
+(velocity)^2/2a = distance
 '''
 
 distance = velocity**2 / 2*acceleration
