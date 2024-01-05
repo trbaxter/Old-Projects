@@ -5,8 +5,6 @@ Write a program that reads a temperature in °C from the console, converts it to
 <br>
 
 ## Exercise 9 (Calculate Wind-Chill Temperature)
-How cold is it outside? The temperature alone is not enough to provide the answer.\
-Other factors including wind speed, relative humidity, and sunshine play important roles in determining coldness outside.\
 In 2001, the National Weather Service (NWS) implemented the new wind-chill temperature to measure the coldness using temperature and wind speed. The formula is:
 
 $$ t_{wc} = 35.74 + 0.6215 \cdot t_a - 35.75 \cdot v^{0.16} + 0.4275 \cdot t_{a} \cdot v^{0.16}  $$
