@@ -21,17 +21,19 @@ y2 = eval(input("Enter a longitude between -180° and 180° for the second point
 if y2 < -180 or y2 > 180:
     print("Error: Longitude entered is outside the valid range.")
     sys.exit(0)
+# Added error exits that terminates the program if a user enters an invalid value
 
 x1_str = str(x1)
 x2_str = str(x2)
 y1_str = str(y1)
 y2_str = str(y2)
+# Converting input integers to strings to concatenate in final displace (as integers and strings can't be concatenated together)
 
 x1_rad = math.pi/180 * x1
 x2_rad = math.pi/180 * x2
 y1_rad = math.pi/180 * y1
 y2_rad = math.pi/180 * y2
-# Converting the input values from degrees to radians 
+# Converting the input values from degrees to radians for use with trig functions
 
 d = (6371.01) * math.acos( (math.sin(x1_rad) * math.sin(x2_rad)) + (math.cos(x1_rad) * math.cos(x2_rad) * math.cos(y1_rad - y2_rad))) 
 print("\n")
