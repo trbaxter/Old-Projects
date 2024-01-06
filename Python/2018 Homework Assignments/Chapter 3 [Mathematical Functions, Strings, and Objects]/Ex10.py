@@ -13,14 +13,17 @@ stripped_name = name.strip()
 if any(char.isdigit() for char in stripped_name):
     print("Error: employee name must contain letters only.")
     sys.exit(0)
+# Name rejected if character that isn't a letter is found
 
 elif len(stripped_name) == 0:
     print("Error: employee name cannot be empty.")
     sys.exit(0)
+# Name rejected if empty
 
 elif stripped_name == "null":
     print("Error: employee name cannot be null.")
     sys.exit(0)
+# Name rejected if null
 
 week_hours = eval(input("Number of hours worked in the week: "))
 
