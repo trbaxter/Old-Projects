@@ -11,7 +11,7 @@ if x_input < 0 or x_input > 127:
 x_rounded = round(x_input)
 # Input needs to be rounded to nearest whole integer since no ASCII characters have decimals
 x_str = str(x_rounded)
-# Input value returned as string for final display
+# Input value rounded and returned as string for final display
 x_ascii = chr(x_rounded)
 # 
 
