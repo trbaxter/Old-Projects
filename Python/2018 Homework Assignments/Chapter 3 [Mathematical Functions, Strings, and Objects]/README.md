@@ -5,7 +5,8 @@ The great circle distance between the two points can be computed using the follo
 
 $$ d = \text{radius} * \cos^{-1} \Big(\sin(x_1)*\sin(x_2) + \cos(x_1) * \cos(x_2) * \cos(y_1 - y_2) \Big)$$
 
-Write a program that prompts the user to enter the latitude and longitude of two points on the Earth in degrees and displays the great circle distance between them. 
+Write a program that prompts the user to enter the latitude and longitude of two points on the Earth in degrees and\
+displays the great circle distance between them. 
 
 <br>
 
