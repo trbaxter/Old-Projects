@@ -24,3 +24,8 @@ The statement should include the following:
 - Hourly pay rate
 - Federal tax witholding rate
 - State tax witholding rate
+
+<br>
+
+## Exercise 11 (Reversing a Number)
+Write a program that prompts the user to enter a four-digit integer and displays the number in reverse order.
