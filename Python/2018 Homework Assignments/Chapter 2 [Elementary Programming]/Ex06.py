@@ -15,7 +15,7 @@ elif isinstance(x, float):
 
 x_str = str(x)
 
-digit_3 = x%10
+digit_3 = x % 10
 digit_3_str = str(digit_3)
 
 digit_2 = math.floor(x // 10) % 10
