@@ -13,7 +13,7 @@ The York Solutions Capstone project was the final assignment in the 2022 summer 
 
 
 <h2>Python</h2>
-This folder contains completed homework assignments from my Intro to Programming course at SCSU.
+This folder contains homework assignments from my Intro to Programming course at SCSU.
 
 
 <br>
