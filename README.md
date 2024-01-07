@@ -1,4 +1,4 @@
-This is a collection of coding projects and miscellaneous programming work I've completed over the past several years.\
+This is a collection of coding projects and miscellaneous programming work I've worked on.\
 Details on the contents of each folder are provided below.
 
 <br>
