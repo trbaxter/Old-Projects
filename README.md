@@ -1,5 +1,5 @@
 This is a collection of coding projects and miscellaneous programming work I've completed over the past several years.\
-Some details on the contents of each folder are provided below.
+Details on the contents of each folder are provided below.
 
 <br>
 
