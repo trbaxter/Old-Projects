@@ -13,7 +13,6 @@ If the discriminant is positive, display the two roots. If the discriminant is z
 Otherwise, display to the user that the equation has no real roots.
 
 <br>
-<br>
 
 
 ## Exercise 3 (Solving Systems of Equations)
