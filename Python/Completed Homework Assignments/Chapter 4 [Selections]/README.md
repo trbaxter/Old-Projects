@@ -33,3 +33,19 @@ Suppose you shop for rice and find it in two different-sized packages. Write a p
 
 
 The program should prompt the user to enter the weight and price of each package, then display the one with the better price. 
+
+<br>
+
+## Exercise 21 (Calculating Day From Input)
+Zeller's congruence is an algorithm developed by Christian Zeller to calculate the day of the week. The formula is:
+
+$$ h = \Big(q +  \lfloor \dfrac{26(m+1)}{10} \rfloor + k + \lfloor \dfrac{k}{4} \rfloor + \lfloor \dfrac{j}{4} \rfloor + 5j \Big) \ \\% \ 7 $$
+
+Where:
+- $h$ is the day of the week (0 = Saturday, 1 = Sunday, ... &nbsp;)
+- $q$ is the day of the month
+- $m$ is the month (1 = January, 2 = February, ... &nbsp;)
+- $j$ is the century
+- $k$ is the year of the century
+
+Write a program that prompts the user to enter the above values and display the name of the day of the week.
