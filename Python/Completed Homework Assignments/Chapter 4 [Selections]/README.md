@@ -24,3 +24,12 @@ $$ cx + dy = f $$
 
 Write a program that prompts the user to enter $a$, $b$, $c$, $d$, $e$, and $f$ and display the results for $x$ and $y$.\
 If $ad - bc = 0$, report that the equation has no solution. 
+
+<br>
+
+
+## Exercise 9 (Comparing Costs)
+Suppose you shop for rice and find it in two different-sized packages. Write a program to compare the costs of each.
+
+
+The program should prompt the user to enter the weight and price of each package, then display the one with the better price. 
