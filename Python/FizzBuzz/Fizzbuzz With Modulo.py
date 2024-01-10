@@ -1,7 +1,5 @@
 # This is a program for FizzBuzz that uses the standard approach involving the modulo operation.
 
-import random
-
 def fizzbuzz(N):
     for i in range (1, N + 1):
         if i % 3 == 0 and i % 5 == 0:
