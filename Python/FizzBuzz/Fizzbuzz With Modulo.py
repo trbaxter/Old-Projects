@@ -1,4 +1,4 @@
-# Chapter 5 - Exercise 28
+# This is a program for FizzBuzz that uses the standard approach involving the modulo operation.
 
 import random
 
