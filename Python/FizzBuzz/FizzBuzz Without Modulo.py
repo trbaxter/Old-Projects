@@ -4,7 +4,7 @@ def fizzbuzz(N):
     for i in range (1, N + 1):
         if (i/3).is_integer() == True and (i/5).is_integer() == True:
             print("FizzBuzz")
-# If this line isn't first, the program sees multiples of 15 as div. by 3 only and displays Fizz.
+# The section in the loop above needs to be first, otherwise the program sees multiples of 15 as divisible by 3 only and mistakenly displays Fizz.
         elif (i/3).is_integer() == True:
             print("Fizz")
         elif (i/5).is_integer() == True:
