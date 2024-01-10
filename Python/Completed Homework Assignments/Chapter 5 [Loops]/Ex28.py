@@ -13,7 +13,7 @@ i = 0
 
 getcontext().prec = 100
 
-while i < 100001:
+while i < 100000:
     e += 1/Decimal(math.factorial(i))
     i += 1
     if i % 10000 == 0:
