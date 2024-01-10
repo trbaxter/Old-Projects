@@ -35,8 +35,3 @@ $$ e = 1 + \dfrac{1}{1!} + \dfrac{1}{2!} + \dfrac{1}{3!} + ... + \dfrac{1}{i!} $
 Write a program that displays the approximation value for $e$ for $i = 10,000$ to $100,000$ in increments of $10,000$.
 
 <br>
-
-## Exercise 36 (Rock, Paper, Scissors Game)
-Write a program that lets a user play rock, paper, scissors continuously until either the user or the computer wins more than two times.
-
-<br>
