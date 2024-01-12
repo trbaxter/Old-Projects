@@ -29,6 +29,9 @@ function evenOrOdd(number) {
 ////////////  Tests  ////////////
 /////////////////////////////////
 
+const chai = require('chai');
+const assert = chai.assert;
+
 describe("Sample tests",() => {
   
   it("2 is even", () => {
