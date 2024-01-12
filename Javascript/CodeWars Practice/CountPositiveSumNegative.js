@@ -24,7 +24,7 @@ function countPositivesSumNegatives(input) {
   var neg_sum = 0
   const final_array = new Array();
   
-  if (input == undefined || input.length ===0) {
+  if (input == undefined || input.length === 0) {
     return [];
   }
   
