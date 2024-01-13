@@ -17,8 +17,7 @@ Use the following function header:
 ```
 def futureInvestmentValue(investmentAmount, monthlyInterestRate, years):
 ```
-Additionally, write a test program that prompts the user to enter the investment amount and the annual interest rate in percent \
-and prints a table that displays the future value for the years from 1 to 30.
+Additionally, write a test program that prompts the user to enter the investment amount and the annual interest rate in percent and prints a table that displays the future value for the years from 1 to 30.
 
 <br>
 
