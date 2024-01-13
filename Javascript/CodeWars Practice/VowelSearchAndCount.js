@@ -12,7 +12,6 @@ The input string will consist only of lowercase
 letters and/or spaces.
 
 */
-
   
 /////////////////////////////////  
 ////////////  Setup  ////////////
