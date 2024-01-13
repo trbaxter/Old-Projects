@@ -2,10 +2,10 @@
 
 print("This program computes the future investment value for an investment and displays the total over 30 years.")
 print()
-def futureInvestmentValue(investmentAmount, annualInterestRate, years):
-    futureValue = investmentAmount*((1+((annualInterestRate)/12))**(years*12))
-    return futureValue
 
+def futureInvestmentValue(investmentAmount, annualInterestRate, years):
+    futureValue = investmentAmount*((1 + ((annualInterestRate) / 12)) ** (years * 12))
+    return futureValue
 
 def main():
     try:
