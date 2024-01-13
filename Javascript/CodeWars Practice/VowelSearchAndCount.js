@@ -1,14 +1,16 @@
 import codewars from "https://esm.sh/codewars";
 
-/* 
+/////////////////////////////////  
+////////  Challenge  ////////////
+/////////////////////////////////
 
-  Challenge:
+/*
 
-  Return the number of vowels in a given string. 
-  Consider a, e, i, o, u, but not y. 
-  The input string will consist only of lowercase 
-  letters and/or spaces.
-  
+Return the number of vowels in a given string. 
+Consider a, e, i, o, u, but not y. 
+The input string will consist only of lowercase 
+letters and/or spaces.
+
 */
 
   
