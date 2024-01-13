@@ -1,16 +1,17 @@
 import codewars from "https://esm.sh/codewars";
 
-/* 
+/////////////////////////////////  
+////////  Challenge  ////////////
+/////////////////////////////////
 
-  Challenge:
+/*
 
-  Create a function that takes an integer as
-  an argument and returns "Even" for even 
-  numbers or "Odd" for odd numbers. 
+Create a function that takes an integer as
+an argument and returns "Even" for even 
+numbers or "Odd" for odd numbers. 
   
 */
 
-  
 /////////////////////////////////  
 ////////////  Setup  ////////////
 /////////////////////////////////
