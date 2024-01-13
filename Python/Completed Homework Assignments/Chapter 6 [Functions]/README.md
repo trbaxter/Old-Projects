@@ -11,8 +11,7 @@ Additionally, write a test program that uses this function to display the first 
 
 
 ## Exercise 7 (Future Investment Value)
-Write a function that computes a future investment value at a given interest rate for a specified number of years. \
-Use the following function header:
+Write a function that computes a future investment value at a given interest rate for a specified number of years. Use the following function header:
 
 ```
 def futureInvestmentValue(investmentAmount, monthlyInterestRate, years):
