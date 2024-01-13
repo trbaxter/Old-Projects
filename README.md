@@ -17,6 +17,7 @@ Details on the contents of each language folder are provided below.
 <h2>Python</h2>
 
 - Completed homework assignments from my 2018 Intro to Programming course at SCSU.\
-(Textbook exercises are taken from Y. Daniel Liang's *Intro to Programming Using Python*)
+(Textbook exercises are taken from *Intro to Programming Using Python* by Y. Daniel Liang)
 
-- Two solutions for the archetypical "FizzBuzz" interview question.
+- Two possible solutions for the archetypical "FizzBuzz" coding interview question. \
+(One using the standard modulo approach, and one without using modulo)
