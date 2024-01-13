@@ -4,8 +4,8 @@ def getPentagonalNumber(n):
     return n*(3*n - 1)//2
 
 def PentagonalNumberArray(number_of_p):
-    Number_of_Pentagonals = 100
-    Number_of_Pentagonals_Per_Line = 10
+    number_of_pentagonals = 100
+    number_of_pentagonals_per_line = 10
     count = 1
     n = 1
 
