@@ -1,19 +1,20 @@
 import codewars from "https://esm.sh/codewars";
 
-/* 
+/////////////////////////////////  
+////////  Challenge  ////////////
+/////////////////////////////////
 
-  Challenge:
+/*
 
-  Given an array of integers, return an array 
-  where the first element is the count of positive
-  numbers and the second element is the sum of 
-  negative numbers. 
+Given an array of integers, return an array 
+where the first element is the count of positive
+numbers and the second element is the sum of 
+negative numbers. 
 
-  If the input is an empty array or null, return an 
-  empty array. 
+If the input is an empty array or null, return an 
+empty array. 
   
 */
-
   
 /////////////////////////////////  
 ////////////  Setup  ////////////
