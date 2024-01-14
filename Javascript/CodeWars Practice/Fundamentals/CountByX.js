@@ -1,0 +1,49 @@
+import codewars from "https://esm.sh/codewars";
+
+///////////////////////////////////////////////////////////////
+////////////////////////  Challenge  //////////////////////////
+///////////////////////////////////////////////////////////////
+
+/*
+
+Create a function with two arguments that will return an array
+of the first n multiples of x.
+
+Assume both the given number and the number of times to count
+will be positive numbers greater than zero.
+
+*/
+
+///////////////////////////////////////////////////////////////
+////////////////////////  Setup  //////////////////////////////
+///////////////////////////////////////////////////////////////
+
+function countBy(x, n) {
+  let z = [];
+  let i = 1;
+
+  while (i < (n+1)) {
+    z.push(x * i);
+    i += 1;
+  }
+
+  return z;
+}
+
+
+
+///////////////////////////////////////////////////////////////
+////////////////////////  Tests  //////////////////////////////
+///////////////////////////////////////////////////////////////
+
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
+
+describe("Tests", function() {
+  it ("Basic tests", function() {
+    assert.strictEqual(repeatStr(3, "*"), "***");
+    assert.strictEqual(repeatStr(5, "#"), "#####");
+    assert.strictEqual(repeatStr(2, "ha "), "ha ha ");
+  });
+});
