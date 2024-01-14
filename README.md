@@ -1,4 +1,4 @@
-This is a collection of coding projects and miscellaneous programming stuff I've worked on in the past.\
+This is a collection of coding projects and miscellaneous stuff I've worked on in the past.\
 Details on the contents of each language folder are provided below.
 
 <br>
