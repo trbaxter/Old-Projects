@@ -1,5 +1,5 @@
 This is a collection of coding projects and miscellaneous stuff I've worked on in the past.\
-Details on the contents of each language folder are provided below.
+Details on the contents of each folder are provided below.
 
 <br>
 
@@ -21,3 +21,9 @@ Details on the contents of each language folder are provided below.
 
 - Two possible solutions for the archetypical "FizzBuzz" coding interview question. \
 (One using the standard modulo approach, and one without using modulo)
+
+<br>
+
+<h2>Scientific Papers</h2>
+
+- Published conference proceedings I worked on as an undergraduate student.
