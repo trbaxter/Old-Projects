@@ -4,7 +4,7 @@
 
 /*
 
-create a simple MIN / MAX statement that will return the 
+Create a simple MIN / MAX statement that will return the 
 Minimum and Maximum ages out of all the people.
 
 Schema of people table:
