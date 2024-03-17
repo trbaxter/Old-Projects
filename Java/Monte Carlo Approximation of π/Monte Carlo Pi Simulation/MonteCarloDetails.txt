@@ -1,0 +1,28 @@
+Project motivation: Use the Monte Carlo estimation technique to determine the value of π with arbitrary precision.
+
+Consider a square with a length of 1 containing 1/4th of a circle of radius 1:
+
+ _________________________
+|   *                    |
+|       *                |
+|           *            |
+|              *         |
+|                 *      |
+|      r = 1        *    |
+|                     *  |
+ _______________________*|
+
+To perform the technique, we randomly throw darts at the square.
+Only darts landing within the square are counted.
+
+The probability of a dart randomly hitting any position inside the square is identical.
+To estimate π, we need to calculate the probability that a dart lands within the quarter circle.
+
+• P(dart within quarter circle) = Area of quarter circle / Area of 1x1 square
+
+Because the area of the 1x1 square = 1, the probability can be simplified to the following:
+
+• P(dart within quarter circle) = Area of quarter circle
+                                = π/4
+
+If this area is multiplied by 4, we can then experimentally determine the value of π.
