@@ -8,7 +8,7 @@ Details on the contents of each folder are provided below.
 - The fullstack capstone project I completed for the 2022 summer B2E tech track course at York Solutions.
 
 - A Monte Carlo simulation that estimates the value of π to an arbitrary amount of precision.\
-Includes a very rough (but interesting) visual representation of the drawn concept from the details file. 
+Includes a rough (but interesting) visual representation of the drawn concept from the details file. 
 
 <br>
 
