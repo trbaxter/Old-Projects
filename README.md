@@ -26,4 +26,4 @@ Includes a rough (but interesting) visual representation of the drawn concept fr
 
 <h2>Scientific Papers</h2>
 
-- Published conference proceedings I worked on as a lead physics research assistant during my time as an undergrad.
+- Published conference proceedings I worked on as a lead physics research assistant.
