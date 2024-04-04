@@ -3,12 +3,11 @@ Details on the contents of each folder are provided below.
 
 <br>
 
-<h2>Javascript</h2>
+<h2>Java</h2>
 
-- The capstone project I completed for the 2022 summer B2E tech track course at York Solutions.
+- The fullstack capstone project I completed for the 2022 summer B2E tech track course at York Solutions.
 
-- Completed challenges from Codewars.com.
-
+- A Monte Carlo simulation that estimates the value of π to an arbitrary amount of precision. Includes a visualization accompaniment.
 
 <br>
 
@@ -26,4 +25,4 @@ Details on the contents of each folder are provided below.
 
 <h2>Scientific Papers</h2>
 
-- Published conference proceedings I worked on as an undergraduate student.
+- Published conference proceedings I worked on as a lead physics research assistant during my time as an undergrad.
