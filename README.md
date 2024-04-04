@@ -20,7 +20,7 @@ Includes a rough (but interesting) visual representation of the drawn concept fr
 (Textbook exercises are taken from *Intro to Programming Using Python* by Y. Daniel Liang)
 
 - Two possible solutions for the archetypical "FizzBuzz" coding interview question. \
-(One using the standard modulo approach, and one without using modulo)
+One uses the standard modulo approach, and the other does not. 
 
 <br>
 
