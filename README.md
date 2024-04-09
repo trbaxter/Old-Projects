@@ -13,7 +13,7 @@ Details on the contents of each folder are provided below.
 <h2>Java</h2>
 
 - Beginner projects on introductory topics. Covers one or two features at most. 
-- Intermediate projects exploring more difficult concepts or combining several at once.
+- Intermediate projects exploring more difficult concepts or combining several basic concepts together.
 - An advanced full stack capstone project I completed for the 2022 summer apprenticeship at York Solutions.
 
 
