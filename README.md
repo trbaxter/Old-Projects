@@ -3,11 +3,18 @@ Details on the contents of each folder are provided below.
 
 <br>
 
-<h2>Javascript</h2>
+<h2>Codewars Practice</h2>
 
-- The capstone project I completed for the 2022 summer B2E tech track course at York Solutions.
+- Coding challenges I've completed in JavaScript, Python, and SQL to practice my skills.
 
-- Completed challenges from Codewars.com.
+
+<br>
+
+<h2>Java</h2>
+
+- Beginner projects on introductory topics. Covers one or two features at most. 
+- Intermediate projects exploring more difficult concepts or combining several at once.
+- An advanced full stack capstone project I completed for the 2022 summer apprenticeship at York Solutions.
 
 
 <br>
@@ -19,11 +26,11 @@ Details on the contents of each folder are provided below.
 - Completed homework assignments from my 2018 Intro to Programming course at SCSU.\
 (Textbook exercises are taken from *Intro to Programming Using Python* by Y. Daniel Liang)
 
-- Two possible solutions for the archetypical "FizzBuzz" coding interview question. \
-(One using the standard modulo approach, and one without using modulo)
+- Two possible solutions for the archetypal "FizzBuzz" coding interview question. \
+(One using the standard modulo approach and one without using modulo)
 
 <br>
 
 <h2>Scientific Papers</h2>
 
-- Published conference proceedings I worked on as an undergraduate student.
+- Published conference proceedings I worked on as an undergraduate physics student.
