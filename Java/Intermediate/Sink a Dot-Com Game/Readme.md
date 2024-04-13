@@ -21,10 +21,10 @@ When the player has sent the Dot Com to the big 404 in the sky, the game ends by
 <br>
 A visual representation of the game's layout looks something like this:  
 
-<img src="C:\Users\trb70\OneDrive\Desktop\Dot Com Picture Example.png"/></img>
+<img src="Design Structure/Dot Com Picture Example.png"/></img>
 Where successful hits would be found at A4, A5, and A6.
 
 <br>
 The high-level design of the game has the following structure:
 
-<img src="C:\Users\trb70\OneDrive\Desktop\Dot Com Game Design.png"/></img>
+<img src="Design Structure/Dot Com Game Design.png"/></img>
