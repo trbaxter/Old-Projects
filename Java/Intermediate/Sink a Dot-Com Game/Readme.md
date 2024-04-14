@@ -40,10 +40,10 @@ flowchart LR
     A((Start)):::start --> B[Set up\n game]:::action
     B --> C[Get user\n guess]:::action
     C --> D{Check\n user guess}:::decision
-    D -- &nbsp <b>Miss</b> &nbsp ---> C
-    D -- &nbsp <b>Hit</b> &nbsp ---> E[Remove\n cell]:::action
+    D -- &nbsp <b>Miss!</b> &nbsp ---> C
+    D -- &nbsp <b>Hit!</b> &nbsp ---> E[Remove\n cell]:::action
     E --> C
-    D -- &nbsp <b>Kill</b> &nbsp ---> F[Remove\n Dot Com]:::action
+    D -- &nbsp <b>DotCom destroyed!</b> &nbsp ---> F[Remove\n DotCom]:::action
     F --> G[Display\n user score]:::action
     G --> H((Finish)):::finish
 

@@ -16,9 +16,9 @@ public class SimpleDotComGame {
             String result = theDotCom.checkYourself(guess);
             numOfGuesses++;
 
-            if (result.equals("DotCom destroyed!")) {
+            if (result.equals("DotCom destroyed!\n")) {
                 isAlive = false;
-                System.out.println("Game over! Your score is " + numOfGuesses + " guesses.");
+                System.out.println("Game over! It took you " + numOfGuesses + " guesses to win the game.");
             }
         }
     }
