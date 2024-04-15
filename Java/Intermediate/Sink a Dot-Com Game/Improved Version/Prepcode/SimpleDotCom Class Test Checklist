@@ -1,0 +1,11 @@
+Things to test:
+
+1.) Instantiate a DotCom object.
+
+2.) Assign it a location (an array of 3 ints, like {2,3,4}).
+
+3.) Create a String to represent a user guess. ("2", "0", etc.).
+
+4.) Invoke the checkYourself() method passing it the fake user guess.
+
+5.) Print out the result to see if it's correct ("passed" / "failed").
