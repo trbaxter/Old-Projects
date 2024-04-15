@@ -1,0 +1,11 @@
+Things to test:
+
+1.) Instantiate a battleship object.
+
+2.) Assign it a location using the new ArrayList.
+
+3.) Assign it a name.
+
+4.) Invoke the checkYourself() method passing it a fake user guess.
+
+5.) Print out the result to see if it's correct ("passed" / "failed").
