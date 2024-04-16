@@ -53,20 +53,29 @@ public class BattleshipGameMain {
 
     private void checkUserGuess(String userGuess) {
 
-        numOfGuesses++;
-        String result = "Miss!";
-
-        for (Battleship battleship : battleshipList) {
-            result = battleship.checkYourself(userGuess);
-            if (result.equals("Hit!")) {
-                break;
-            }
-            if (result.equals("Battleship destroyed!")) {
-                battleshipList.remove(battleship);
-                break;
-            }
+        if (userGuess == null || !userGuess.substring(0,1).matches(".*[abcdefg].*") ||
+                !userGuess.substring(1,2).matches(".*[0123456].*")) {
+            System.out.println("Invalid conditions for guess. Please specify a grid location using A-G and 0-6.");
         }
-        System.out.println(result);
+
+        if (userGuess != null &&
+                userGuess.substring(0,1).matches(".*[abcdefg].*") &&
+                userGuess.substring(1,2).matches(".*[0123456].*")) {
+            numOfGuesses++;
+            String result = "Miss!";
+
+            for (Battleship battleship : battleshipList) {
+                result = battleship.checkYourself(userGuess);
+                if (result.equals("Hit!")) {
+                    break;
+                }
+                if (result.equals("Battleship destroyed!")) {
+                    battleshipList.remove(battleship);
+                    break;
+                }
+            }
+            System.out.println(result);
+        }
     }
 
     private void finishGame() {

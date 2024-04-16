@@ -21,7 +21,7 @@ public class Battleship {
 
             if (locationCells.isEmpty()) {
                 result = "Battleship destroyed!";
-                System.out.println("You sunk an enemy " + name + ".");
+                System.out.println("Hit! You sunk an enemy " + name + ".");
             } else {
                 result = "Hit!";
             }
