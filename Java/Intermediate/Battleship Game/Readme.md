@@ -23,9 +23,9 @@ When the player destroys every battleship, the game ends by displaying the user'
 
 ## Visualization
 
-The virtual board has the following layout:
+An example game would have the following layout on the virtual grid:
 
-<img src="Pictures/Game Visual.png"/></img>
+<img src="Pictures/Battleship Grid.png"/></img>
 
 <br>
 <br>
@@ -33,20 +33,42 @@ The virtual board has the following layout:
 ## Design Diagram
 
 ```mermaid
+
+
+
 flowchart LR
-    A((Start)):::start --> B[Set up\n game]:::action
-    B --> C[Get user\n guess]:::action
-    C --> D{Check\n user\n guess}:::decision
+    
+    %% Game Start %%
+    A((Start)):::start
+    
+    %% Game End %% 
+    H((Finish)):::finish
+    
+    %% Game Actions %%
+    B[Set up\n game]:::action
+    C[Get user\n guess]:::action
+    E[Remove\n cell]:::action
+    F[Remove\n Battleship]:::action
+    G[Display\n user score]:::action
+    
+    %% Game Decisions %%
+    D{Check\n user\n guess}:::decision
+    F1{Do any\n battleships\n remain?}:::decision
+    
+    %% Links %%
+    A --> B  
+    B --> C
+    C --> D
     D -- &nbsp <b>Miss!</b> &nbsp ---> C
-    D -- &nbsp <b>Hit!</b> &nbsp ---> E[Remove\n cell]:::action
+    D -- &nbsp <b>Hit!</b> &nbsp ---> E
     E --> C
-    D -- &nbsp <b>Battleship destroyed!</b> &nbsp ---> F[Remove\n Battleship]:::action
-    F --> F1{Do any\n battleships\n remain?}:::decision
+    D -- &nbsp <b>Battleship destroyed!</b> &nbsp ---> F
+    F --> F1
     F1 -- &nbsp <b>Yes</b> &nbsp --> C
-    F1 -- &nbsp <b>No</b> &nbsp --> G[Display\n user score]:::action
+    F1 -- &nbsp <b>No</b> &nbsp --> G
     G --> H((Finish)):::finish
 
-    
+    %% Class Colors %%
     classDef start stroke:#0f0,stroke-width:2px;
     classDef finish stroke:#f00, stroke-width:2px;
     classDef decision stroke:#cc5500, stroke-width:2px;

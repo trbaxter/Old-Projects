@@ -15,7 +15,6 @@ public class Battleship {
     public String checkYourself(String userInput) {
         String result = "Miss!";
         int index = locationCells.indexOf(userInput);
-        // Find out if the userGuess is in the array by asking for index. If not, then indexOf() returns -1.
         if (index >= 0) {
             locationCells.remove(index);
 
