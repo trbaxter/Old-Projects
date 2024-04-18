@@ -1,4 +1,4 @@
-# Battleship Game
+# Battleship - The Classic Strategy Guessing Game
 
 ### **Goal:**
 Sink all the computer's battleships in the fewest number of guesses.  
@@ -12,12 +12,12 @@ When that's complete, the game asks the player for the first guess.
 <br>
 
 ### **How to play:**
-The computer will prompt the player for a guess (a cell) that will be entered into
-the terminal as "A3", "A5", etc.  
-In response to the guess, the player will see a result in the terminal
+The computer will prompt the player for a guess that will be entered into
+the console as "A3", "a5", etc.  
+In response to the guess, the player will see a result in the console
 indicating "Hit", "Miss", or "Battleship destroyed!".
 
-When the player destroys every battleship, the game ends by displaying the user's rating.
+When the player destroys every computer battleship, the game ends and displays the user's score.
 <br>
 <br>
 
@@ -25,12 +25,14 @@ When the player destroys every battleship, the game ends by displaying the user'
 
 An example game would have the following layout on the virtual grid:
 
-<img src="Pictures/Battleship Grid.png"/></img>
+<img src="Pictures/Battleship Grid.png"/>
 
-<br>
+Ship locations are randomly generated using the _placeBattleship()_ method found in the GameHelper class.
+
 <br>
 
 ## Design Diagram
+
 
 ```mermaid
 
@@ -74,3 +76,40 @@ flowchart LR
     classDef decision stroke:#cc5500, stroke-width:2px;
     classDef action stroke:#33FF, stroke-width:2px;
 ```
+
+<br>
+
+## Example Game
+
+The application begins with a title screen and game instructions for the user:
+
+
+<img src="Pictures/Battleship Sample Run 1.png"/>
+
+<br>
+
+Guesses are progressively entered until the player destroys the total number of ships
+(default of 3) and wins the game:
+
+<img src="Pictures/Battleship Sample Run 2.png"/>
+
+<br>
+
+If a player enters a guess located outside the grid, or containing illegal characters, 
+the following warning will display:
+
+<img src="Pictures/Battleship Sample Run 3.png"/>
+
+<br>
+
+## Future Ideas for Improvement
+
+### **Addition of a GUI**  
+While the game functions as expected, it can be a little difficult for a user to keep track of all of their guesses.  
+It would be great to include a graphic interface allowing players to pick their guessing locations and have previous 
+guesses tracked visually.
+
+### **Prevent guessing the same location twice**
+Currently, a player can accidentally (or mistakenly) enter the same location multiple times when guessing.  
+Adding a preventative measure that avoids counting these previous guesses would improve the player experience. 
+
