@@ -107,7 +107,8 @@ the following warning will display:
 ### **Addition of a GUI**  
 While the game functions as expected, it can be a little difficult for a user to keep track of all of their guesses.  
 It would be great to include a graphic interface allowing players to pick their guessing locations and have previous 
-guesses tracked visually.
+guesses tracked visually.  
+<br>
 
 ### **Prevent guessing the same location twice**
 Currently, a player can accidentally (or mistakenly) enter the same location multiple times when guessing.  
