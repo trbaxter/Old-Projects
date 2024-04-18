@@ -23,23 +23,37 @@ public class Email {
     }
 
     private String setDepartment() {
-        System.out.println("DEPARTMENT CODES\n" +
+        System.out.println("\n--------------------");
+        System.out.print("DEPARTMENT CODES\n" +
                 "1 for Sales\n" +
                 "2 for Development\n" +
                 "3 for Accounting\n" +
                 "0 for None\n" + "\n" +
                 "Enter department code: ");
         Scanner in = new Scanner(System.in);
+
+
+        if (!in.hasNextInt()) {
+            System.out.println("\nERROR: Only 0 through 3 are acceptable inputs. Please try again.");
+            setDepartment();
+        }
+
+        if (in.hasNext()) {
+            System.out.println("BAD");
+        }
+
         int deptChoice = in.nextInt();
+
         try {
             if (deptChoice == 1) {return "sales.";}
             else if (deptChoice == 2) {return "development.";}
             else if (deptChoice == 3) {return "accounting.";}
-            else if (deptChoice > 4 || deptChoice < 0 ) throw new IllegalArgumentException();
+            else if (deptChoice > 3 || deptChoice < 0 ) throw new IllegalArgumentException();
         } catch (IllegalArgumentException e) {
-            System.out.println("\nERROR: Only 0 through 4 are acceptable inputs. Please try again.");
-            System.exit(0);
-        } {return "";}
+            System.out.println("\nERROR: Only 0 through 3 are acceptable inputs. Please try again.");
+            setDepartment();
+        }
+        return "";
     }
 
     private String randomPassword(int length) {
