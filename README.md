@@ -16,7 +16,7 @@ Details on the contents of each folder are provided below.
 
 - Intermediate projects exploring more difficult concepts or combining several basic concepts together.
 
-- An advanced full stack capstone project I completed for the 2022 summer apprenticeship at York Solutions.
+- Advanced projects requiring an longer amount of time to complete due to the complexity involved.
 
 
 <br>
