@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class SimulationFrame extends JFrame {
+public class SimFrame extends JFrame {
 
-    public SimulationFrame() {
+    public SimFrame() {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Monte Carlo Method of Approximating π");
@@ -12,7 +12,7 @@ public class SimulationFrame extends JFrame {
         setLayout(new GridLayout());
         setLocationRelativeTo(null);
 
-        SimulationDrawing d = new SimulationDrawing();
+        SimDrawing d = new SimDrawing();
         add(d);
         setVisible(true);
     }
