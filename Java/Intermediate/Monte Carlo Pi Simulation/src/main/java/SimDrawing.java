@@ -2,16 +2,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.geom.Arc2D;
 
-public class SimulationDrawing extends JPanel implements ActionListener {
+public class SimDrawing extends JPanel implements ActionListener {
 
     int x = 0;
     int y = 0;
 
-    Timer t = new Timer(10, this);
+    Timer t = new Timer(1, this);
 
-    public SimulationDrawing() {
+    public SimDrawing() {
         t.start();
     }
 
@@ -24,7 +23,7 @@ public class SimulationDrawing extends JPanel implements ActionListener {
         int width = 500;
         int height = 500;
 
-        for (int i = 0; i < 21000; i++){
+        for (int i = 0; i < (20000+1); i++){
 
             x = (int) (Math.random() * width);
             y = (int) (Math.random() * height);
@@ -46,13 +45,13 @@ public class SimulationDrawing extends JPanel implements ActionListener {
             Graphics2D g2d = (Graphics2D) g;
 
             g2d.setColor(Color.BLACK);
-            g2d.setStroke(new BasicStroke(3));
+            g2d.setStroke(new BasicStroke(4));
             g2d.drawArc(-515,3,1000,1000,0,90);
 
 
 
             g.setColor(Color.RED);
-            g.fillOval(x,y,3,3);
+            g.fillOval(x,y,5,5);
 
 
 
