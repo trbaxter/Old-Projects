@@ -38,10 +38,6 @@ public class Email {
             setDepartment();
         }
 
-        if (in.hasNext()) {
-            System.out.println("BAD");
-        }
-
         int deptChoice = in.nextInt();
 
         try {
