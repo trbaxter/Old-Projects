@@ -30,7 +30,7 @@ public class PointPainter {
         int x = lastPair[0];
         int y = lastPair[1];
 
-        g2d.setStroke(new BasicStroke(4));
+        g2d.setStroke(new BasicStroke(3));
         if (distanceFromCenter <= 450) {
             g2d.setColor(Color.GREEN);
 
@@ -38,8 +38,11 @@ public class PointPainter {
         else {
             g2d.setColor(Color.RED);
         }
-        g2d.drawLine(x, y, x, y);
-        g2d.drawLine(x, y, x, y);
+        g2d.drawOval(x,y,2,2);
+        g2d.drawOval(x,y,2,2);
+
+//        g2d.drawLine(x, y, x, y);
+//        g2d.drawLine(x, y, x, y);
 
     }
 }

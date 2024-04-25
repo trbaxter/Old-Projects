@@ -16,7 +16,7 @@ Details on the contents of each folder are provided below.
 
 - Intermediate projects exploring more difficult concepts or combining several basic concepts together.
 
-- Advanced projects requiring an longer amount of time to complete due to the complexity involved.
+- Advanced projects requiring a longer amount of time to complete due to the complexity involved.
 
 
 <br>
