@@ -42,9 +42,8 @@ public class FramePainter extends JPanel implements ActionListener {
             int outer = (points-1) - (inner);
             int total = inner+outer;
 
-            float estimate = 4*((float) inner / (float) (total));
-            DecimalFormat df = new DecimalFormat("#.####");
-            df.setRoundingMode(RoundingMode.CEILING);
+            double estimate = 4*((double) inner / (double) (total));
+            DecimalFormat df = new DecimalFormat("#.#######");
             String formattedEstimate = df.format(estimate);
 
             System.out.println("\nPoints inside the circle: " + inner);
