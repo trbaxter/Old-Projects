@@ -16,8 +16,6 @@ Details on the contents of each folder are provided below.
 
 - Intermediate projects exploring more difficult concepts or combining several basic concepts together.
 
-- Advanced projects requiring a longer amount of time to complete due to the complexity involved.
-
 
 <br>
 
@@ -31,8 +29,4 @@ Details on the contents of each folder are provided below.
 - Two possible solutions for the archetypal "FizzBuzz" coding interview question. \
 (One using the standard modulo approach and one without using modulo)
 
-<br>
 
-<h2>Scientific Papers</h2>
-
-- Published conference proceedings I worked on as an undergraduate physics student.
