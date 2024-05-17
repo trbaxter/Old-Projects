@@ -24,7 +24,7 @@ Once all points have been painted, it then:
 5.) Goes through the ArrayList, one coordinate set at a time, and checks if it's found inside or outside the circle.  
 6.) Generates an estimate of π with the following calculation:
 
-$$ π = 4 \cdot \dfrac{Number of points inside the circle}{Total number of points} $$
+$$ π = 4 \cdot \dfrac{\text{Number of points inside the circle}}{{Total number of points}} $$
 
 
 
